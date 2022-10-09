@@ -80,6 +80,8 @@ class EngineOperations:
             return 'Mate in 1!'
         return element.text
 
+    def get_the_dif(self):
+        pass
 
 
 class EngineConnector:

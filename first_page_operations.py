@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 import web_elements_login_page
 from selenium.webdriver.common.action_chains import ActionChains
 web_elements_login_page.driver.implicitly_wait(3)
-web_elements_login_page.email.send_keys('timonakiH')
+web_elements_login_page.email.send_keys('timonaki')
 web_elements_login_page.password.send_keys('Shadowhex06')
 web_elements_login_page.submit_login_form.click()
 web_elements_login_page.error_check()
